@@ -1,14 +1,17 @@
 /* место для вашего кода */
-.header{
+body {
+  overflow-x: hidden;
+}
+.header {
   height: 293px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
 }
-.header_nav{
+.header_nav {
     align-self: self-start;
 }
-.header_menu{
+.header_menu {
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
@@ -17,13 +20,12 @@
   display: flex;
   gap: 31px;
 }
-.header_items1{ 
-  
+.header_items1 { 
   width: 67px;
   height: 21px;
   list-style: none;
 }
-.header_items2{
+.header_items2 {
   width: 149px;
   height: 21px;
   text-decoration: underline;
@@ -31,7 +33,7 @@
   text-underline-offset: 4px;
   list-style: circle;
 }
-.header_items3{
+.header_items3 {
   width: 108px;
   height: 21px;
   text-decoration: underline;
@@ -39,31 +41,28 @@
   text-underline-offset: 4px;
   list-style: circle;
 }
-.header_logo{
+.header_logo {
   width: 148px;
   height: 105px;
 }
-.header_address{
+.header_address {
   padding-left: 187px;
   padding-bottom: 3px;
 }
-.address{
+.address {
   width: 240px;
   height: 98px;
-
   font-style: normal;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 23.6px;
 }
-.overlay{
+.overlay {
   z-index: 1;
   width: 1100px;
   height: 757px;
   background-color: rgb(0 0 0 / 0.5);
 }
-.cover{
+.cover {
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -71,7 +70,7 @@
   height: 757px; 
   position: relative;
 }
-.cover_spans{
+.cover_spans {
   color: #FFFFFF;
   display: flex;
   justify-content: start;
@@ -79,7 +78,7 @@
   padding-top: 165px;
   padding-left: 50px;
 }
-.cover_span1{
+.cover_span1 {
   height: 115px;
   font-family: Raleway;
   font-weight: 700;
@@ -88,7 +87,7 @@
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-.cover_span2{
+.cover_span2 {
   align-self: center;
   margin-left: 13px;
   margin-right: -6px;
@@ -99,7 +98,7 @@
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-.cover_span3{
+.cover_span3 {
   align-self: end;
   margin-left: -77px;
   flex-basis: 200px;
@@ -111,10 +110,10 @@
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-.description{
+.description {
   display: flex;
 }
-.subline{
+.subline {
   justify-self: unset;
   padding-top: 118px;
   color: #FFFFFF;
@@ -126,11 +125,11 @@
   word-spacing: 19px;
   text-transform: uppercase;
 }
-.cover_button{
+.cover_button {
   padding-top: 105px;
   padding-left: 105px;
 }
-.button{
+.button {
   width: 256px;
   height: 51px;
   justify-self: right;
@@ -147,13 +146,13 @@
   border: 1px solid;
 
 }
-.lots{
+.lots {
     width: 1052px;
     height: 723px;
     margin-top: 185px;
     margin-left: 64px;
 }
-.lots_text{
+.lots_text {
   font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
@@ -270,7 +269,6 @@
   margin-left: -3px;
 }
 .lots_cards_left {
-  
   background-position: center;
   background-size: cover;
   list-style: none;
@@ -312,7 +310,7 @@
   letter-spacing: 0%;
 
 }
-.about{
+.about {
   width: 1076px;
   height: 893px;
   padding-top: 150px;
@@ -367,7 +365,7 @@
   line-height: 24px;
   letter-spacing: 0%;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   gap: 70px;
@@ -379,12 +377,12 @@
   width: 260.7px;
 
 }
-.foother_menu{
+.foother_menu {
   justify-self: end;
   margin-left: -40px;
   margin-top: 0;
 }
-.foother_items1{ 
+.foother_items1 { 
   font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
@@ -398,7 +396,7 @@
   height: 21px;
   list-style: none;
 }
-.foother_items2{
+.foother_items2 {
   font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
@@ -414,7 +412,7 @@
   text-underline-offset: 4px;
   list-style: none;
 }
-.foother_items3{
+.foother_items3 {
   font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
