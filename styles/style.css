@@ -55,7 +55,6 @@
 }
 .overlay {
   z-index: 1;
-  width: 1100px;
   height: 757px;
   background-color: rgb(0 0 0 / 0.5);
 }
@@ -63,7 +62,6 @@
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
-  width: 1100px;
   height: 757px;
   position: relative;
 }
@@ -147,7 +145,7 @@
     width: 1052px;
     height: 723px;
     margin-top: 185px;
-    margin-left: 64px;
+    padding-left: 64px;
 }
 .lots_text {
   font-family: Raleway;
@@ -364,9 +362,8 @@
 }
 .footer {
   display: flex;
-  justify-content: space-between;
-  gap: 70px;
-  margin-left: 50px;
+  justify-content: space-around;
+  gap: 30px;
   width: 1100px;
   height: 180px;
 }
@@ -375,8 +372,8 @@
 
 }
 .foother_menu {
-  justify-self: end;
-  margin-left: -40px;
+  justify-self: center;
+  padding-right: 0px;
   margin-top: 0;
 }
 .foother_items1 {
@@ -428,7 +425,6 @@
 }
 .social_media {
   justify-self: start;
-  margin-right: 100px;
   display: flex;
   justify-content: space-between;
   width: 240px;
